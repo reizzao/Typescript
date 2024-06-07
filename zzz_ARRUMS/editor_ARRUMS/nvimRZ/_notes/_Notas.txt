@@ -1,0 +1,31 @@
+# Notas
+Instalar_Plugins: :PackerInstall
+
+tutorial: udemy : https://www.udemy.com/course/curso-de-vim-moderno-e-vimscript/learn/lecture/32115990#learning-tools
+
+tutorial: como instalar packer nvim : https://terminalroot.com.br/2021/11/instalando-plugins-tudo-sobre-neovim-com-lua.html
+
+1. 1º passo clonar o packer
+  1. comando_clonar_packer: $ `git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
+  1. local que ele instala os pacotes: ~/.local/share/nvim/site/pack/packer/start/
+
+1. 2º passo -> no editor criar pasta lua/plugins/plugins.lua
+  1. neste arquivo plugins.lua definir a instalacao de plugins para uso
+  1. importar este arquivo no init.lua
+  1. agora sim no comando line pode chamar e instalr :PackerInstall
+  1. local que esatrao instalados os plugins/pacotes: ~/.local/share/nvim/site/pack/packer/start/
+
+# Links_Plugins
+  1. explorer : NvimTree (https://github.com/nvim-tree/nvim-tree.lua)
+   1. mapear -> explorer : NvimTree (https://github.com/nvim-tree/nvim-tree.lua/blob/master/doc/nvim-tree-lua.txt)
+
+  1. repo_temas_nvim: ['https://github.com/navarasu/onedark.nvim',   ]
+
+  1. explorer: ['neo-tree >> https://github.com/nvim-neo-tree/neo-tree.nvim',]
+
+
+# Comandos line
+  1. ver emojis: :ShowEmoji
+
+# Temas

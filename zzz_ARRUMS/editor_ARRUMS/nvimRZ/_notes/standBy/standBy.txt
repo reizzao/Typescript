@@ -1,0 +1,26 @@
+-- explorer sidebar -> NeoTreeFocusToggle
+vim.cmd([[ nnoremap <A-e> :NeoTreeFocusToggle<CR> ]])
+-- vim.cmd([[ nnoremap <A-e> :NeoTreeFocusToggle<CR>R ]]) -- INICIAR COM TOGGLE ATIVO
+vim.cmd([[ inoremap <A-e> :NeoTreeFocusToggle<CR>l ]])
+vim.cmd([[ vnoremap <A-e> :NeoTreeFocusToggle<CR> ]])
+
+-- TESTAR SCRIPT D ETERMINAL DO CARNEIRO
+-- Terminal
+cmd [[command! Term :botright split term://$SHELL]]
+cmd [[
+  autocmd TermOpen * setlocal listchars= nonumber norelativenumber nocursorline
+  autocmd TermOpen * startinsert
+  autocmd BufLeave term://* stopinsert
+]
+
+-- Toggle Comentario 2 Barras -- Com F7 --
+vim.cmd([[
+  function! CommentToggle()
+    execute ':silent! s/\([^ ]\)/\/\/ \1/'
+    execute ':silent! s/^\( *\)\/\/ \/\/ /\1/'
+  endfunction
+
+  map <F7> :call CommentToggle()<CR>
+]])
+
+

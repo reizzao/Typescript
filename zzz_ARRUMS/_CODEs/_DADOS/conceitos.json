@@ -1,0 +1,7 @@
+[
+  {
+    "nome": "conceito classe CustomErrorJs",
+    "categoria": "modeladores",
+    "conceito": " herdar do tipo Error do js\n na construcao ao ser chamado posso receber uma mensagem\n no super posso retornar esta mensagem recebida na construcao como herdei de Error posso configurar as props deste objError\n configurando um valor para a prop .name"
+  }
+]

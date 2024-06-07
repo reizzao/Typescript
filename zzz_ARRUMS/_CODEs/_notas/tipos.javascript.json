@@ -1,0 +1,72 @@
+[
+  {
+    "tipo_de_valor": "tipo_valor_valido_truthy",
+    "categoria": "tipo",
+    "nome": "texto_string",
+    "categoria_beneficio": "valor_recuperavel",
+    "representacao": "qualquer string inclusive espaço.",
+    "representacao_nao_valida_falsy": " string vazia",
+    "uso": "instanciar em uma capsulaVariavel",
+    "exemplo": "\n```\n const texto = \"meu texto\"\n```"
+  },
+  {
+    "tipo_de_valor": "tipo_valor_valido_truthy",
+    "categoria": "tipo",
+    "nome": "numero_inteiro",
+    "categoria_beneficio": "valor_recuperavel",
+    "representacao": "1-9 ... qualquer numero inteiro.",
+    "representacao_nao_valida_falsy": "zero normal e zero negativo -0 ... retornam false quando verificado ",
+    "uso": "instanciar em uma capsulaVariavel",
+    "exemplo": "\n```\n const numero = 10\n```"
+  },
+  {
+    "tipo_de_valor": "tipo_valor_valido_truthy",
+    "categoria": "tipo",
+    "nome": "boleano",
+    "categoria_beneficio": "valor_recuperavel",
+    "representacao": "true",
+    "representacao_nao_valida_falsy": "false",
+    "uso": "em retorno de operacoes boleanas",
+    "exemplo": "\n```\n const hasCasado = true\n```"
+  },
+  {
+    "tipo_de_valor": "tipo_valor_NAO_valido_falsy",
+    "categoria": "tipo",
+    "nome": "nulo",
+    "categoria_beneficio": "valor_nao_setado",
+    "representacao": "null",
+    "representacao_nao_valida_falsy": "null",
+    "uso": "quando retornado de uma variavel - requer tratamento ou valor default",
+    "exemplo": "\n```\n const temValor = null\n```"
+  },
+  {
+    "tipo_de_valor": "tipo_valor_NAO_valido_falsy",
+    "categoria": "tipo",
+    "nome": "indefinido",
+    "categoria_beneficio": "valor_nao_definido",
+    "representacao": "undefined",
+    "representacao_nao_valida_falsy": "undefined",
+    "uso": "quando retornado de uma variavel - requer tratamento ou valor default ou algum retorno de valorValido",
+    "exemplo": "\n```\n const temValor = undefined\n```"
+  },
+  {
+    "tipo_de_valor": "tipo_valor_NAO_valido_falsy",
+    "categoria": "tipo",
+    "nome": "estruturas_vazias",
+    "categoria_beneficio": "valor_vazio",
+    "representacao": "[], {}",
+    "representacao_nao_valida_falsy": "[], {}",
+    "uso": "podem ser usados para iniciar valores_estruturais, mas se precisar comparar retorna true, mas nao pode aproveitar como valor. ",
+    "exemplo": "\n```\n const objetoInicial = {}\n const arrayInicial = []\n```"
+  },
+  {
+    "tipo_de_valor": "tipo_valor_NAO_valido_falsy",
+    "categoria": "tipo",
+    "nome": "erro",
+    "categoria_beneficio": "objeto de erro",
+    "representacao": "new Error ('mensagem')",
+    "representacao_nao_valida_falsy": "",
+    "uso": "contem as propriedades para uso : name, message, stack ",
+    "exemplo": "\n```\n ..TODO...\n```"
+  }
+]

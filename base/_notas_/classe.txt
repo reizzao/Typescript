@@ -1,0 +1,4 @@
+
+dentro_de_acoes:
+
+herdando_uma_classe: ` class extends CONSTRUTOR_CAPTURADO_DA_CLASSE`

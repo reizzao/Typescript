@@ -1,0 +1,10 @@
+[
+  {
+    "alvo_inicial": "comecar pela falha, o que deseja retornar de resultado final a partir da acao do input do Client.",
+
+    "funcionalidade_Sut_a_ser_testada": "ela sera um de nossos SUT, funcionalidade principala ser testada, posso fazer mockQUeImita a funcionalidade em producao ou ir fazendo a funcionalidade na producao como se fosse mock.",
+    "mocks_refatorar_para_producao": "todos mocks e fakes iniciais, refatorar para existirem na producao, assim ficar sem nenhum mock, testar somente os producao."
+
+
+  }
+]

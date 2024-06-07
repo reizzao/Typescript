@@ -1,0 +1,10 @@
+[
+  {
+    "categoria": "refatorar",
+    "aplicabilidade": "funcao_anonima",
+    "alvo_a_ser_trocado": "{ return",
+    "trocar_por": "=> arow_function",
+    "exemplo_legado": "```\nconst getMultiplier = (multiplier: number) => {\nreturn function (aNumber: number) {\nreturn aNumber * multiplier;};\n};\n```",
+    "exemplo_refatorado": "`const getMultiplier = (multiplier: number) => (aNumber: number) =>  aNumber * multiplier;`"
+  }
+]

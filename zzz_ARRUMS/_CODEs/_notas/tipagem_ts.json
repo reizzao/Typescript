@@ -1,0 +1,10 @@
+[
+  {
+    "tipagem_prototipos": "todos membros tem que ser opcionais",
+    "heranca_multipla_interfaces": "basta a interfaceAlvo extender outras interfaces separadas por virgula ,exemplo: `interface Alvo extends Type1, Type2`",
+    "tipar_erros": {
+      "tipar_param_catch": "tipar com <any> e assim da pra acessar suas props : name, message, stack",
+      "tutoriais": ["https://timmousk.com/blog/typescript-try-catch/"]
+    }
+  }
+]

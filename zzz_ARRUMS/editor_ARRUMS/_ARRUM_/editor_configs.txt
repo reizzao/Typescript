@@ -1,0 +1,39 @@
+atalhos_vscode:
+
+// Modelo: comando: "", atalho_novo: "", atalho_default: "", obs: "",
+
+arquivos_abertos_tab: comando: "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup", atalho_novo: "", atalho_default: "c-Tab", obs: "",
+
+local_config_vscode: "~/.config/Code/User",
+local_configs: "~/.config/Code/User/keybindings.json",
+
+copiar: procurar_por: "copy",comando: "editor.action.clipboardCopyAction",  atalho_novo: "F1", atalho_default: "c-s-c", obs: "se modificado neste comando certo , ainda funciona o c-c",
+
+colar: comando: "editor.action.clipboardPasteAction", atalho_novo: "F3", atalho_default: "c-s-v", obs: "continua funcionando o atalho c-s-v",
+
+terminal_abrir_e_recolher_: comando: "workbench.action.togglePanel", atalho_novo: c-t, atalho_default: c-j, obs: "comando create new terminal só cria o term nao recolhe"
+
+comentar: comando: "editor.action.commentLine", atalho_novo: "c-;", atalho_default: "c-\", obs: ""
+
+split_telas: comando: "split editor", atalho_novo: "c-vv", atalho_default: "", obs: "",
+
+fechar_tela_em_uso: comando: "-workbench.action.closeActiveEditor", atalho_novo: "c-q", atalho_default: "c-w", obs: "",
+
+fechar_o_editor: comando: "workbench.action.closeActiveEditor", atalho_novo: "c-k", atalho_default: "c-k-c-k", obs: "",
+
+ocorrencia_proxima: comando: "editor.action.addSelectionToNextFindMatch", atalho_novo: "shif+n", significado: "pesquisa proxima/next, ", atalho_default: "c-d", obs: "",
+
+ocorrencias_todas: comando: "editor.action.changeAll", atalho_novo: "shif+m", significado: "pesquisa muitos/many, ", atalho_default: "c-F2", obs: "",
+
+===
+
+modificados:
+Show All comandos de f1 para S-F1
+
+test0
+test1
+foo
+
+
+test0test1foo
+foo

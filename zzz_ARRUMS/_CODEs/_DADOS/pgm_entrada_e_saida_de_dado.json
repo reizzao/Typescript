@@ -1,0 +1,16 @@
+[
+  {
+    "ferramenta": "funcao",
+    "detalhe": "normal",
+    "artefato": "funcao",
+    "entrada_de_dado": "param",
+    "saida_de_dado": "return"
+  },
+  {
+    "ferramenta": "classe js",
+    "detalhe": "classe herdada",
+    "artefato": "constructor()",
+    "entrada_de_dado": "constructor(param) // param no constructor",
+    "saida_de_dado": "super( saida ) // o que passar no super sera o retorno saida de dado."
+  }
+]

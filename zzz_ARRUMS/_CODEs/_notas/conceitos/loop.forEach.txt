@@ -1,0 +1,35 @@
+
+forEach
+traducao: para cada item passe essa funcao
+recebe: uma funcao (ANONIMA || OU REFERENCIA_NOMEADA_SEM_EXECUTAR) com 3 params
+  1- o iterador sera o item atual a cada rodagem
+  2 - param é o indice
+  3 - param é o array inteiro
+
+implementacao_manipulacao_na_funcao_callback_esperada:
+- no loop vou manipular e mudar com efeitoColateral diretamente os items do arrayFonte
+- para alterar direto no alvo - tenho que operar a mudanca e reatribuir ao proprio iteravel
+-para ver mudancas vejo no proprio Fonte alterado.
+
+resumo: o resultado da manipulacao voce ve o retrno diretamente na fonte em forma de efeitoColateral ... porque em loops nao da rpa usar o return porque o return apra a execucao e retorna de onde esta.
+
+exemplo:
+```
+interface ListObj { Campo1: string, Campo2: string }
+
+const listObj: ListObj[] = [
+  { Campo1: "foo1", Campo2: "foo11" },
+  { Campo1: "foo2", Campo2: "foo22" },
+  { Campo1: "foo3", Campo2: "foo333" },
+]
+
+function handleForEach (i: ListObj) {
+  i.Campo1 = i.Campo1.toUpperCase()
+}
+// forEach - para cada item da lista - faça esta funcao
+listObj.forEach(handleForEach)
+// show array fonte original
+console.log(listObj)
+```
+
+---

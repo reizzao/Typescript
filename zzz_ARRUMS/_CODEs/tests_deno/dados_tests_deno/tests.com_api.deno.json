@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "testar promise resolvida",
+    "categoria": "Com_Api_Expect",
+    "code": "expect(Promise.resolve(PROMESSA)).resolves.toEqual(RESULTADO_ESPERADO);"
+  },
+  {
+    "titulo": "testar promise rejeitada",
+    "categoria": "Com_Api_Expect",
+    "code": "expect(Promise.resolve(PROMESSA)).rejects.toEqual(RESULTADO_ESPERADO);"
+  },
+  {
+    "titulo": "se é igual",
+    "categoria": "Com_Api_Assert",
+    "code": "assertEquals(target,\"O que espero que seja igual\",\"Ops.. MENSAGEM DE ERRO!\",)"
+  },
+  {
+    "titulo": "string contem",
+    "categoria": "Com_Api_Assert",
+    "code": "assertStringIncludes(target, \"PartesTextoQueEsperoQueTenha\", \"Ops.. MENSAGEM DE ERRO!\")"
+  },
+  {
+    "titulo": "se no array contem",
+    "categoria": "Com_Api_Assert",
+    "code": "assertArrayIncludes(meuArray,[\"valor1\", \"valor2\", \"+valores\"],\"Ops.. MENSAGEM DE ERRO!\", )"
+  },
+  {
+    "titulo": "se no array contem",
+    "categoria": "Com_Api_Expect",
+    "code": "expect(meuArray).toContain(\"ValorQueEsperoQueContenha\")"
+  },
+  {
+    "titulo": "se array nao contem",
+    "categoria": "Com_Api_Expect",
+    "code": "expect(meuArray).not.toContain(\"ValorQueEsperoQueContenha\")"
+  },
+  {
+    "titulo": "acertar tamanho do array",
+    "categoria": "Com_Api_Expect",
+    "code": "expect(meuArray).toHaveLength(\"10 numero de items\")"
+  }
+]

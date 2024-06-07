@@ -1,0 +1,7 @@
+
+descobrir_estes_comandos_de_teclado:
+
+ {
+    "key": "ctrl+f5",
+    "command": "workbench.action.terminal.focusAtIndex5"
+  },

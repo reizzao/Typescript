@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "",
+    "comando": "",
+    "observacoes": ""
+  },
+  {
+    "nome": "clonar neovim oficial",
+    "comando": "git clone https://github.com/neovim/neovim",
+    "observacoes": "para instalar o neovim tem que clonar este repo oficial"
+  },
+  {
+    "nome": "desinstalar neovim instalado pelo gerenciador de pacotes",
+    "comando": "sudo apt remove neovim --purge <DEPOIS> sudo apt autoremove autoclean clean",
+    "observacoes": "vai desinstaalr o neovim e suas dependencias"
+  },
+  {
+    "nome": "instalar neovim",
+    "comando": "",
+    "observacoes": "na home do usuario tem que existir a pasta ~/.config/nvim"
+  }
+]

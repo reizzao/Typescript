@@ -1,0 +1,2 @@
+
+valorUnicoNaMemoria: symbol é semelhante a um ponteiro , tutorial: https://www.treinaweb.com.br/blog/javascript-voce-sabe-o-que-sao-e-por-que-usar-symbols

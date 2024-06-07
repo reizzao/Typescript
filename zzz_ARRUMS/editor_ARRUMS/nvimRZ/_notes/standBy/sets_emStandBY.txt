@@ -1,0 +1,38 @@
+
+-- Terminal
+vim.cmd [[command! Term :botright split term://$SHELL]]
+vim.cmd [[
+autocmd TermOpen * setlocal listchars= nonumber norelativenumber nocursorline
+autocmd TermOpen * startinsert
+autocmd BufLeave term://* stopinsert
+]]
+
+
+-- MARKDOWN -- TODO
+let g:markdown_fenced_languages = [
+    \ 'vim',
+    \ 'help'
+    \]
+
+-- SETS -- EM STANDBY
+
+vim.cmd([[ set background=dark ]])
+--  diga ao vim como é a cor de fundo : tell vim what the background color looks like
+
+-- vim.cmd([[ set noshowmode ]])
+-- definir modo de não apresentação : set no show mode
+
+-- vim.cmd([[ set clipboard+=unnamed ]])
+-- definir área de transferência sem nome : set clipboard unnamed
+
+vim.cmd([[ set incsearch ]])
+-- todo ???
+
+-- vim.cmd([[ colorscheme dracula ]])
+-- setar cores do tema : theme settings color
+
+-- THEMES --
+-- OUTROS USOS DE THEMES :
+--vim.cmd([[ colorscheme peachpuff ]])
+--vim.cmd([[ colorscheme gruvbox ]])
+--require('onedark').load()

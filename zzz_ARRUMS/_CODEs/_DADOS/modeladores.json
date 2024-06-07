@@ -1,0 +1,11 @@
+[
+  {
+    "nome": "classe",
+    "keyword": "class",
+    "declaracao": "class NameClass {}",
+    "herdar_membros_de_outra": "```extends ClasseQueVaiHerdar```",
+    "receberAlgumTipoDeDado": "no ```constructor (dado: tipo)``` // semelhante funcao(parametro)",
+    "devolverAlgumTipoDedado": "dentro do blocoConstructor :: ```super( dado )```  // semelhante return da funcao obs: Do dado que pode devolver tem que ser do_Tipo_que_a_classeHerdadaPermite",
+    "configurar_valor_customizado_para_campo_de_classe_herdada": "dentro do blocoConstructor :: ```this.campoHerdado = valorDoTipoQueSuporta```"
+  }
+]

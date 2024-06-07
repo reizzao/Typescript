@@ -1,0 +1,236 @@
+[
+  {
+    "key": "tab",
+    "command": "tab",
+    "when": "editorTextFocus && !editorTabMovesFocus",
+    "desc": "Tab identa"
+  },
+  {
+      "key": "shift+tab",
+      "command": "outdent",
+      "when": "editorTextFocus && !editorTabMovesFocus",
+      "desc": "re-Tab desindenta."
+  },
+  {
+    "key": "f4",
+    "command": "code-runner.run",
+   "desc": "run code arquivo no terminal - - default era ctrl+alt+n"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "actions.find",
+    "when": "editorFocus || editorIsOpen",
+    "desc": "find crtl+f - caso nao tiver habilitado no vscode_vim add este aqui."
+  },
+  {
+		"key": "ctrl+d",
+		"command": "editor.action.deleteLines",
+		"when": "textInputFocus && !editorReadonly",
+		"desc": "deleta linha -> default ctrl+shift+k -> movido para backup para acostumar deletar com <dd do vim em modo normal>"
+  },
+  {
+  "key": "ctrl+c",
+  "command": "editor.action.clipboardCopyAction",
+  "desc": "copiar em edição - reconfigurando ctrl+c de novo vscode_vim"
+},
+
+{
+"key": "ctrl+v",
+"command": "editor.action.clipboardPasteAction",
+"desc": "colar em edição - reconfigurando ctrl+v de novo vscode_vim"
+},
+
+{
+  "key": "ctrl+c",
+  "command": "editor.action.clipboardCopyAction",
+  "desc": "copiar em edição - reconfigurando ctrl+c de novo vscode_vim"
+},
+
+{
+"key": "ctrl+v",
+"command": "editor.action.clipboardPasteAction",
+"desc": "colar em edição - reconfigurando ctrl+v de novo vscode_vim"
+},
+
+  {
+    "key": "ctrl+c",
+    "command": "workbench.action.terminal.copySelection",
+    "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected",
+    "desc": "copiar do terminal em focus"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "filesExplorer.copy",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !inputFocus",
+    "desc": "copiar em explorer arquivos no sidebar"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "filesExplorer.cut",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus",
+    "desc": "recortar em explorer arquivos no sidebar"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "filesExplorer.paste",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus",
+    "desc": "colar em explorer arquivos no sidebar"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "workbench.action.terminal.paste",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
+    "desc": "colar em terminal em focus"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "workbench.action.terminal.paste",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
+    "desc": "colar em terminal em focus"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "editor.action.clipboardCutAction",
+    "desc": "recortar - default: ctrl+x"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "editor.action.selectAll",
+    "desc": "seleciona tudo - default: ctrl+a"
+  },
+	{
+		"key": "ctrl+shift+,",
+		"command": "editor.action.addSelectionToNextFindMatch",
+		"when": "editorFocus",
+		"desc": "ocorrencia_atual_UMA - default era ctrl+d"
+	},
+	{
+		"key": "ctrl+shift+.",
+		"command": "editor.action.selectHighlights",
+		"when": "editorFocus",
+		"desc": "ocorrencias_TODAS - default era ctrl+."
+	},
+  {
+    "key": "ctrl+.",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly",
+    "desc": "sugestao de conserto rapido - quick fix - default ???"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus",
+    "desc": "inserir cursor linhas abaixo - default -> ctrl+shift+down"
+  },
+  {
+		"key": "ctrl+\\",
+		"command": "editor.action.commentLine",
+		"when": "editorTextFocus && !editorReadonly",
+		"desc": "comentario em linha -> default ctrl+k+ctrl+c"
+	},
+	{
+		"key": "ctrl+shift+\\",
+		"command": "editor.action.blockComment",
+		"when": "editorTextFocus && !editorReadonly",
+		"desc": "comentario em bloco -> default ctrl+shift+a"
+  },
+  {
+		"key": "alt+w",
+		"command": "workbench.action.closeActiveEditor",
+		"desc": "fecha atual janela ativa -> default ctrl+w"
+	},
+  {
+    "key": "alt+q",
+    "command": "workbench.action.closeAllEditors",
+    "desc": "fecha todas janelas ativa forcado force -> default: ctrl+k ctrl+w"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.quickOpenNavigateNextInEditorPicker",
+    "when": "inEditorsPicker && inQuickOpen",
+    "desc": "navega entre janelas abertas - default -> ctrl+tab"
+  },
+	{
+		"key": "alt+t",
+		"command": "workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active",
+		"desc": "toggle TERMINAL :: Obs: Preferia F1 mas como ainda nao consegui no nvim fica <A-t> aqui - default: ctrl+shift+`<craze>"
+	},
+  {
+    "key": "shift+f1",
+    "command": "workbench.action.terminal.kill",
+    "desc": "fecha kill terminal em foco - default: #NaoTinha"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "breadcrumbs.revealFocusedFromTreeAside",
+    "when": "breadcrumbsActive && breadcrumbsVisible && listFocus && !inputFocus",
+    "desc": "abrir arquivo selecionado em vsplit -> default: ctrl+enter"
+  },
+	{
+		"key": "alt+e",
+		"command": "workbench.action.toggleSidebarVisibility",
+		"desc": "toggle_explorador_de_arquivos - default: ctrl+b"
+	},
+  {
+    "key": "f2",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly",
+    "desc": "renomea definicao variavel - rename symbol -> default: f2"
+  },
+	{
+    "key": "ctrl+f1",
+		"command": "workbench.action.showCommands",
+		"desc": "mostra comandos - default: f1"
+	},
+  {
+		"key": "ctrl+down",
+		"command": "editor.action.copyLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly",
+		"desc": "duplica > copia e cola selecionado linha abaixo - Copy Line Down -- default ctrl+shift+Alt+down - obs: feito somente para baixo - se precisar para cima esta nos backups."
+	},
+  {
+    "key": "ctrl+l",
+    "command": "expandLineSelection",
+    "when": "textInputFocus",
+    "desc": "seleciona linha e expand para baixo - default: ctrl+l"
+  },
+  {
+    "key": "ctrl+k ctrl+f",
+    "command": "editor.action.formatSelection",
+    "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly",
+    "desc": "formatar documento -#TODO configurar_formatador - default: ctrl+k ctrl+f"
+  },
+  {
+    "key": "alt+.",
+    "command": "editor.action.indentLines",
+    "when": "editorTextFocus && !editorReadonly",
+    "desc": "identa linha a frente - default: ctrl+]"
+  },
+  {
+    "key": "alt+,",
+    "command": "editor.action.outdentLines",
+    "when": "editorTextFocus && !editorReadonly",
+    "desc": "desidenta linha a atraz - default: ctrl+["
+  },
+  {
+    "key": "shift+f1",
+    "command": "workbench.action.showCommands",
+    "desc": "mostra todos comandos - show all commands"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.terminal.resizePaneLeft",
+    "when": "editorFocus || focusFilesExplorer || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
+    "desc": "redimensiona terminal a direita ->Somente com SETAS LATERAIS: {#TODO fazer somente setas no modo normal na config > vsVIM >>} default: ctrl+shift+left"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.terminal.resizePaneRight",
+    "when": "editorFocus || focusFilesExplorer || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
+    "desc": "redimensiona terminal a esquerda -> Somente com SETAS LATERAIS {#TODO fazer somente setas no modo normal na config > vsVIM>>} default: ctrl+shift+right"
+  }
+
+
+
+]

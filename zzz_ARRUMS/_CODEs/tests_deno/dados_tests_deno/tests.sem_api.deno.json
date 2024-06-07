@@ -1,0 +1,7 @@
+[
+  {
+    "titulo": "se não é igual",
+    "categoria": "Sem_Api_Expect",
+    "code": "if(target !== assertion) { throw new Error(`${assertion} não é igual a ${target}`)}"
+  }
+]

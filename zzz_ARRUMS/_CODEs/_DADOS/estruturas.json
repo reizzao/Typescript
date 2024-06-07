@@ -1,0 +1,14 @@
+[
+  {
+    "categoria_estrutura": "Loop",
+    "tipo": "TODO",
+    "es_iteravel_ou_iterador": "iterador",
+    "exemplos": ["reduce()", "forEach()"]
+  },
+  {
+    "categoria_estrutura": "funcao",
+    "tipo": "Function",
+    "es_iteravel_ou_iterador": "iteravel",
+    "exemplos": ["foo()", "bar()"]
+  }
+]

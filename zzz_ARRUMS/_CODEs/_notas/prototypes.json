@@ -1,0 +1,7 @@
+[
+  {
+    "testar_se_objetoProto_es_prototype_das_instancias": "protoObj.isPrototypeOf(instacia1) && protoObj.isPrototypeOf(instacia2) // return boolean",
+    "testar_se_metodoNoObjProto_das_instancias_apontam_para_mesmo_endereco_de_memoria": "instancia1.metodoNoObjProto === instancia2.metodoNoObjProto // return string com nome do metodo no obj proto",
+    "testar_se_metodoNoObjProto_esta_nomeado": "instancia.metodoNoObjProto?.name // return string com nome do metodo no obj proto"
+  }
+]

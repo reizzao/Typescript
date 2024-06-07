@@ -1,0 +1,20 @@
+
+# EXPLORER NVIMTree
+
+-- mapeamento:
+-- -- explorer -> NvimTree
+-- vim.cmd([[ nnoremap <C-e> :NvimTreeToggle<CR> ]])
+-- vim.cmd([[ inoremap <C-e> <Esc>:NvimTreeToggle<CR>l ]])
+-- vim.cmd([[ vnoremap <C-e> <Esc>:NvimTreeToggle<CR> ]])
+
+-- INSTALCAO PLUGIN
+-- PACKER -> Instala plugin NvimTree
+ use {
+    'kyazdani42/nvim-tree.lua',
+    requires = {
+      'kyazdani42/nvim-web-devicons',
+    }
+  }
+
+---
+

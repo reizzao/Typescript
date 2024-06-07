@@ -1,0 +1,5 @@
+// COMENTARIO JS TS - COM ESTRELAS A CADA LINHA
+/**
+ *
+ *
+ */

@@ -1,0 +1,16 @@
+[
+  {
+    "tecnica_recursiva_acoes_do_final_pro_inicio": "se comecar do que vc deseja ter como final, vai implementar de forma recursivaAoContrario, as funcionalidades finais que vc comecou vai ter que criar novasAnteriores e usa-las nas finais.",
+
+    "passos_recursivos": [
+      {
+        "diretriz_inicial_test": "comecar tests voltados para falhas, pensando se receber o que vai dar falha.",
+        "iniciar": "cria a acao que devolve o que espera no final",
+        "o_que_recebera_do_testado": "o que vai receber, preparar a falha de resposta"
+      },
+      {
+        "nomear": "a acao que verifica o que voce quer que devolva o resultado esperado, esta acao pode nomear com o nome do que ela faz no caso com o nome do que ela verifica."
+      }
+    ]
+  }
+]

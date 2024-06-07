@@ -1,0 +1,8 @@
+# TS NOTAS
+
+mudar_valor_de_campo_possivel_nulo_do_obj: em ts neste caso nao precisa tentar ver se existe o campo desencadeie normal o obj e no valor no caso de string coloque dentro de crazes.
+
+exemplo: target.perfil.tipoCliente = `VIP`
+
+### DECORATORS
+conceito: são factoryFunctions uma funcao que retorna uma funcao.

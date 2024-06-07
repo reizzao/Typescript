@@ -1,0 +1,12 @@
+[
+  {
+    "nome": "desinstalar vim",
+    "comando": "sudo apt purge --auto-remove vim",
+    "observacoes": "vai desinstaalr o vim e suas dependencias"
+  },
+  {
+    "nome": "instalar vim",
+    "comando": "sudo add-apt-repository ppa:jonathonf/vim <DEPOIS> sudo apt update <DEPOIS> sudo apt install vim",
+    "observacoes": ""
+  }
+]

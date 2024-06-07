@@ -1,0 +1,4 @@
+
+
+// NOME PARA ACOES
+nome para funcao que cria uma entidade : createEntityPrototype (), significado: cria prototype entidade

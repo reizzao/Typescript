@@ -1,0 +1,10 @@
+[
+  {
+    "erro": "falta de tipar a definicao da variavel checada.",
+    "codigo": ["deno-ts(2358)"],
+    "mensagem": "The left-hand side of an 'instanceof' expression must be of type 'any', an object type or a type parameter",
+    "traducao": "O lado esquerdo de uma expressão 'instanceof' deve ser do tipo 'any', um tipo de objeto ou um parâmetro de tipo",
+    "causa": "falta de tipagem na definicao da variavel que esta sendo checada no instanceof",
+    "solucao": "tipar na sua definicao a variavel checada no instanceof"
+  }
+]

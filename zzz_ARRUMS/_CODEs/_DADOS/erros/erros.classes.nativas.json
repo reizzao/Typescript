@@ -1,0 +1,9 @@
+[
+  {
+    "linguagem": "javascript",
+    "classe": "Uncaught Error",
+    "significado": "nao capturado",
+    "origem": "ao lancar erro com throw new Error",
+    "exemplo_origem": "throw new Error ( msg )"
+  }
+]

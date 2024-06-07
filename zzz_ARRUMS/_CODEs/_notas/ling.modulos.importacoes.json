@@ -1,0 +1,6 @@
+[
+  {
+    "import_export_doc": "(import_export_modules)[https://www.typescriptlang.org/docs/handbook/modules.html]",
+    "reesportar_modulo_com_outro_nome": "`export * as novoNomeModulo from './utilities';`"
+  }
+]

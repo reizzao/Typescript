@@ -1,0 +1,26 @@
+# comandos para mapeamento vimsc
+[
+  todos_modos: noremap : (todos os modos) -- repare a diferença que é um <no antes do map no normal é um nno 2 n>
+
+  modo_normal: nnoremap
+  modo_edicao_insercao: inoremap
+  modo_visual: vnoremap
+
+]
+
+
+explicacoes: :nnoremap é um comando de mapeamento não recursivo, o que significa que o Vim irá ignorar qualquer mapeamento que encontrar no lado direito. Como <plug>NERDCommenterToggleé um mapeamento, ele é ignorado e seu mapeamento não faz nada (na melhor das hipóteses) ou algo indesejável (na pior das hipóteses).
+
+Se você quiser usar outros mapeamentos em seus próprios mapeamentos, você deve torná-los recursivos com :map, :nmap, :imap, et
+
+explicacao remapeamento NERDCommenter: O iinoremap significa que o remap só se aplica no modo de inserção.
+
+Isso noremapsignifica que o remapeamento não pode ser substituído posteriormente em seu arquivo .vimrc por acidente ou por um plug-in.
+
+A ,cé a combinação de teclas que aciona o mapa de teclas.
+
+O <C-o>temporariamente tira você do modo de inserção para um comando, então a próxima seção do remapeamento pode chamar a função NERDComment.
+
+É :call NERDComment(0,"toggle")a função NERDComment que está sendo chamada.
+
+Então <C-m>é outra maneira de dizer retorno de carro, que executa o comando.

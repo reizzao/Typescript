@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "sem caracteres especiais e sem espaços",
+    "regex": "^[A-Za-z]+$",
+    "utilidade": "só aceita comecar e terminar com textos incaseSensitive, sem numeros, sem espaços e sem caracteres especiais"
+  },
+  {
+    "nome": "somente um 1 espaco no texto",
+    "regex": "\\^[A-Za-z]\\s?[A-Za-z]+$\\",
+    "utilidade": "só aceita comecar e terminar com textos incaseSensitive, sem numeros, sem espaços e sem caracteres especiais"
+  },
+  {
+    "nome": "somente um 1 espaco no texto",
+    "regex": "\\^[A-Za-z][\\s+\\w]+[A-Za-z]+$\\",
+    "utilidade": "todo: pode ter 1 espaço entre o texto - ta aceitando variios ainda"
+  }
+]

@@ -1,0 +1,7 @@
+principais comandos deno:
+
+deno test --parallel  // obs: este comando de test paralello tem que ser rodado na raiz.
+deno run ARQUIVO.ts
+
+funcoes do node:
+fs : https://deno.land/std@0.152.0/node/fs.ts

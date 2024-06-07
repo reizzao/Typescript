@@ -1,0 +1,42 @@
+
+
+*texto_traduzido:
+
+Coloque seus snippets globais aqui. Cada snippet é definido com um nome de snippet e tem escopo, prefixo, corpo e
+  descrição. Adicione IDs separados por vírgula dos idiomas em que o snippet é aplicável no campo de escopo. Se escopo
+  for deixado em branco ou omitido, o snippet será aplicado a todos os idiomas. O prefixo é o que é
+  usado para acionar o snippet e o corpo será expandido e inserido. As variáveis ​​possíveis são:
+  $1, $2 para paradas de tabulação, $0 para a posição final do cursor e ${1:label}, ${2:another} para espaços reservados.
+  Espaços reservados com os mesmos IDs estão conectados.
+
+  Exemplo:
+  "Print to console": {
+  	"scope": "javascript,typescript",
+  	"prefix": "log",
+  	"body": [
+  		"console.log('$1');",
+  		"$2"
+  	],
+  	"description": "Log output to console"
+  }
+
+  ---
+
+
+*texto_original:
+Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  Placeholders with the same ids are connected.
+  Example:
+  "Print to console": {
+  	"scope": "javascript,typescript",
+  	"prefix": "log",
+  	"body": [
+  		"console.log('$1');",
+  		"$2"
+  	],
+  	"description": "Log output to console"
+  }

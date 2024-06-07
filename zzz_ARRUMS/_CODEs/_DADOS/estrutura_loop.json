@@ -1,0 +1,16 @@
+[
+  {
+    "nome": "reduce",
+    "categoria": "estrutura_loop",
+    "sintaxe": "array.reduce(<1º resultadoEstruturaQueRepete>, <2º estruturaQueRepetira>) => {}, ValorInicialAccumulador",
+    "usar": "desencadear de uma array",
+    "entrada": [
+      "uma funcao (<1º resultadoEstruturaQueRepete: tipar com TipoResutadoEstrutura>, <2º estruturaQueRepetira: tipar com TipoConstrutorDaEstrutura>) =>  "
+    ],
+    "processamento": "com as entradas estrutura e resultadoAcumuladoEstrutura posso fazer operacoes",
+    "saida": "usar return dentro para retornar o que fará com o que usou de entrada",
+    "resultadoRetornado": "retorna o resultado acumulado resumido em um unico arfetato",
+    "efeitos": "nao causa efeito colateral na fonte dos dados usados",
+    "exemplo": "array.reduce(acc, estrutura) => { return estrutura(acc) }"
+  }
+]

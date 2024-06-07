@@ -1,0 +1,4 @@
+# IMPORTANTE
+-- O mpaemaneto C-z é importante para nao travar o vim, como esta mapeado nao vai travar se travar C-q
+
+--

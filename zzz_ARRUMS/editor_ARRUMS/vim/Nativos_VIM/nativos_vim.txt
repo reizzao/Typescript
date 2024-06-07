@@ -1,0 +1,15 @@
+
+comecar_edicao: [
+  "<a> entra em edição 1 espaço a frente de onde o cursor está",
+  "<i> entra em edição onde o cursor está",
+  "<o> entra em edição 1 linha abaixo de onde o cursor está",
+  <shift+s> substitui a linha e já entra em edicao ::
+]
+
+atalhos_combos_nativos_do_vim: [
+  "conceito: não remapear estes atalhos combos nativos",
+  "ctrl+t identa pra frente.",
+  "ctrl+d desidenta pra traz.",
+  "",
+  "",
+]

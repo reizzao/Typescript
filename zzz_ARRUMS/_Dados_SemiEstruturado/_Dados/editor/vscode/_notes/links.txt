@@ -1,0 +1,20 @@
+
+
+-- cores: [
+  mudar cor background vim: https://gist.github.com/romainl/379904f91fa40533175dfaec4c833f2f
+  theme custom base solarized : https://github.com/skbolton/titan/blob/66b278d9c33c4499f767a0398712dd7651c4c9c9/nvim/nvim/plugin/themes.vim#L32
+
+]
+
+-- conversor definidor de cores: [
+  converta cor --> https://convertacolor.com/
+  web dev tool --> https://web-toolbox.dev/en/tools/color-converter
+]
+
+-- themasNvim: [
+  titulo: "catppuccin" , link: "https://github.com/catppuccin/nvim",
+]
+
+-- links_plugins: [
+  NERDCommenter : https://github.com/preservim/nerdcommenter
+]

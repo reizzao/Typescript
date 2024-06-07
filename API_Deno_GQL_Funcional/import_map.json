@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "@/": "./src/",
+    "@entitys": "./src/domain/entitys/index.ts",
+    "@usecases": "./src/domain/usecases/index.ts",
+    "@helpers": "./src/domain/helpers/index.ts",
+    "@externals": "./src/externals/index.ts"
+  }
+}

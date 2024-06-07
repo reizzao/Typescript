@@ -1,0 +1,17 @@
+// TODO: setar alt como leader:
+-- SET MAP LEADER
+vim.cmd([[
+  let mapleader = ","
+  set timeoutlen=500 -- tempo para chamar a tecla leader
+ ]])
+
+// TODO
+-- NAVEGAR ENTRE BUFFERS ABERTOS -> VER TODOS ABERTOS -> NAVEGAR
+
+// TODO: REDMENSIONAR JANELAS
+-- Redimensionar_janelas :: Use alt + hjkl to resize windows -- TODO
+-- vim.cmd([[ nnoremap <A-j>    :resize -2<CR> ]])
+-- vim.cmd([[ nnoremap <A-k>    :resize +2<CR> ]])
+-- vim.cmd([[ nnoremap <A-h>    :vertical resize -2<CR> ]])
+-- vim.cmd([[ nnoremap <A-l>    :vertical resize +2<CR> ]])
+

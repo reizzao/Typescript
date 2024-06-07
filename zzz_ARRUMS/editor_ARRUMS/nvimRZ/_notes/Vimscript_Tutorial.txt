@@ -1,0 +1,7 @@
+# Macros de mapeamento
+map : só funciona em modo normal
+nnoremap : só funciona em modo normal
+inoremap : só funciona em modo insert
+vnoremap : só funciona em modo Visual
+
+para funcionar em todos modos tem que fazer o mapeamento em [ map, nnoremap, inoremap, vnoremap ]

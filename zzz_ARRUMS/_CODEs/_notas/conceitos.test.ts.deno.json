@@ -1,0 +1,6 @@
+[
+  {
+    "verificar_primitivo": "toBe() mesmo que for primitivo vindo de objeto chegue ate a camada onde esta o primitivo e test com toBe()",
+    "verificar_objeto": "toEqual() chegue ate a camada do objeto alvo e test com toEqual()"
+  }
+]

@@ -1,0 +1,15 @@
+
+BACKUP SETTINGS.json NAO USADOS:
+"[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unic
+    odeHighlight.invisibleCharacters": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  }
+
+---

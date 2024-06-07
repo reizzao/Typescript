@@ -1,0 +1,6 @@
+[
+  {
+    "nome": "classe CustomError ErroCustomizado Ts",
+    "exemplo": "```export class InvalidFirstName extends Error {\n constructor(msg:string) {\n super(`${msg}`);\n this.name = `InvalidFirstName`;\n} \n}```"
+  }
+]

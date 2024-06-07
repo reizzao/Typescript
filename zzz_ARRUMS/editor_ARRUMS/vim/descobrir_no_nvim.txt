@@ -1,0 +1,23 @@
+{
+    editor: "nvim",
+    titulo: ""
+    plugin: "todo"
+    key: "",
+    command: "",
+  },
+
+  {
+    editor: "nvim",
+    titulo: "renomear arquivo"
+    plugin: "todo"
+    key: "",
+    command: "",
+  },
+
+  {
+    editor: "nvim",
+    titulo: ""
+    plugin: "todo"
+    key: "",
+    command: "",
+  },

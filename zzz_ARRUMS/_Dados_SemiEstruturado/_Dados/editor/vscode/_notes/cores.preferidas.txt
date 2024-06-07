@@ -1,0 +1,15 @@
+
+cores: {
+  corModeloNome: { nome: "", reference: "", hex: "", hsla: "", rgba: "" }
+
+  black: { nome: "dark", reference: "Github Dark", hex: "#0d1117", hsla: "hsl(216,27.8%,7.1%)", rgba: "rgba(13, 17, 23, 0.99)" }
+
+  corModeloNome: { nome: "", reference: "", hex: "", hsla: "", rgba: "" }
+  corModeloNome: { nome: "", reference: "", hex: "", hsla: "", rgba: "" }
+  corModeloNome: { nome: "", reference: "", hex: "", hsla: "", rgba: "" }
+  corModeloNome: { nome: "", reference: "", hex: "", hsla: "", rgba: "" }
+  corModeloNome: { nome: "", reference: "", hex: "", hsla: "", rgba: "" }
+
+}
+
+	Dark Black Github

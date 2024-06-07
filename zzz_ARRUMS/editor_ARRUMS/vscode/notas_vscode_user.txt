@@ -1,0 +1,7 @@
+
+-- ======================================================================
+-- RESOLVIDO :: indesejado versionamento a cada mudanca de cor de modos vsVIM ::
+-- solucao:  arquivo settings: nesta que era a  linha 12  de statusBar- na customizacao do tema esta pedindo toda vez que muda de modo um versionamento e commit - entao a removi da customizacao de tema:
+`"statusBar.background": "#006666",`
+-- ======================================================================
+

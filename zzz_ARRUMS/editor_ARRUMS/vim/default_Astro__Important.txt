@@ -1,0 +1,8 @@
+
+
+sessao_find_telescope:
+  abrir_historico_de_aberturas_mesmo_externas: "<leader>fo", "o de open"
+
+sessao_gitHub:
+  Findtelescope_ultimos_registrosGit: "<leader>fr", "r de registros"
+  branch_visualizar: "<leader>gb",

@@ -1,0 +1,15 @@
+# Criacao entidade :
+
+> tecnica: factoryFunction
+> factoryFunction : criacao de objetoEntidade
+ tipagem:  se tipar o retorno da factoryEntidade - tem que tipar neste retorno as props e os metodosProto( estes como opcionais) para poder ter autoComplete no uso.
+
+
+
+- tudo é feita na instancia criada a mesma instancia injetada metodoProto, é atribuida com os args, e retornada.
+
+-  associa_objeto_metodoProto_nas_instancias  >> Object.create( objeto_Com_Metodos_Proto );
+
+- importante typescript, sempre que precisar tipar o this, faça nos params do metodo, mesmo que o emtodo nao receba params , tipe o this nele ex: (this: Tipo)
+
+- uso_metodoProto: nao precisa invocar o nome do objetoDemetodosProto somente a `instancia.metodo()` nele inserido.

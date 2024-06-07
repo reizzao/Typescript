@@ -1,0 +1,9 @@
+###
+GET {{ host }}/ HTTP/1.1
+
+###
+
+GET {{ host }}/info_via_param/Reinaldo/MinhaFirma HTTP/1.1
+
+###
+

@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "",
+    "by": "",
+    "link": ""
+  },
+  {
+    "nome": "vim oficial",
+    "by": "vim.org",
+    "link": "https://www.vim.org/"
+  },
+  {
+    "nome": "instalacao vim e neovim",
+    "by": "manual do codigo",
+    "link": "https://www.manualdocodigo.com.br/vim-basico/"
+  },
+  {
+    "nome": "compilar neovim do zero",
+    "by": "terminal root",
+    "link": "https://terminalroot.com.br/2022/05/como-compilar-o-neovim-do-zero.html"
+  }
+]

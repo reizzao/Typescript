@@ -1,0 +1,9 @@
+[
+  {
+    "erro": "ReferenceError",
+    "originario": "linguagem Js",
+    "causa": "tentar usar variavel antes de inicializa-la com valores",
+    "solucao": "primeiro iniciar var com valor depois usar",
+    "links": "https://bobbyhadz.com/blog/javascript-referenceerror-cannot-access-before-initialization#:~:text=The%20%22ReferenceError%3A%20Cannot%20access%20before,the%20variable%20before%20accessing%20it."
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "operador": "coalescencia_nula",
+    "categoria": "valor",
+    "categoria_beneficio": "evita_erro_ao_usar_valor",
+    "representacao": "??",
+    "narracao": "SE NADA_VALIDO TIVER ...DEVOLVA ISTO",
+    "utilidade": "passar valor default no uso de objeto ou valores que podem ser nulo",
+    "uso": "ao desencadear valor objeto , se nada tiver no ultimo desencadeamento ?? usa o operador e passa o valor default",
+    "sintaxe": "objeto?.campo ?? 'nada informado' ",
+    "exemplo": "\n```\n // operador de coalescencia - caso o operando nao tenha valor_valido é assumido o valor passado apos os ??\nconst idade = 0;\nconsole.log(`Sua idade é ${idade ?? \"nao informado\"}`);\n```"
+  }
+]
