@@ -1,21 +1,34 @@
-const arrayAlvo = [10, 10, 10];
+const arrayAlvo = [ 10, 10, 10 ]
 
+// by meuReduce
+function operacaoDeacumulacaoParaCadaItem(initial, item) {
+  return initial += item
+}
+
+// meuReduce para uso
 const meuReduce = (array, initial) => {
-  const arr = array;
-  let operacao = initial;
+
+  const arr = array
+  let operacao = initial
 
   for (let i = initial; i < arr.length; i++) {
     // console.log(arr[i])
+
     // += é a operacao que quero fazer entre os items para acumula-los e ter um resultado final
-    operacao += arr[i];
+
+    operacao = operacaoDeacumulacaoParaCadaItem(operacao, arr[i])
+    // operacao += arr[i]
+
   }
 
-  return operacao;
-};
+  return operacao
 
-const res = meuReduce(arrayAlvo, 0);
+}
 
-console.log(res);
+const res = meuReduce(arrayAlvo, 0)
+
+console.log(res)
+
 
 /*
 Reduce: significado: reduzidor
