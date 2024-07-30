@@ -1,7 +1,7 @@
 // REDUCE SOBRE OBJETO
 
-let dadoInicial = { c1: "A", c2: "B"}
 let dadoAlvo = { c1: "A", c2: "B"}
+let dadoInicial = dadoAlvo
 
 const func1 = function () { return dadoAlvo }()
 const func2 = function () { return dadoAlvo }()
@@ -39,7 +39,8 @@ const useMeuReduce = (array, initial) => {
 
 const res = useMeuReduce(arrayAlvo, dadoInicial)
 
-console.log(res)
+// console.log(res)
+console.log(dadoAlvo)
 
 
 /*
