@@ -1,23 +1,21 @@
-const arrayAlvo = [ 10, 10, 10 ]
+const arrayAlvo = [10, 10, 10];
 
 const meuReduce = (array, initial) => {
-
-  const arr = array
-  let res = initial
+  const arr = array;
+  let operacao = initial;
 
   for (let i = initial; i < arr.length; i++) {
     // console.log(arr[i])
-    res += arr[i]
+    // += é a operacao que quero fazer entre os items para acumula-los e ter um resultado final
+    operacao += arr[i];
   }
 
-  return res
+  return operacao;
+};
 
-}
+const res = meuReduce(arrayAlvo, 0);
 
-const res = meuReduce(arrayAlvo, 0)
-
-console.log(res)
-
+console.log(res);
 
 /*
 Reduce: significado: reduzidor
