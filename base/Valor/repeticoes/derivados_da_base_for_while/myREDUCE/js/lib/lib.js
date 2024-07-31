@@ -4,9 +4,9 @@ function auxAccumulator(initial, item) {
 }
 
 // myReduce para uso
-export const useREDUCE = (list, opAccumulators, opFinal, initial) => {
+export const reduceJS = (list, opAccumulators, opFinal, initial) => {
   try {
-    const initContador = 0
+    const initContador = 0;
     const arr = list;
     let operacao = initial;
 

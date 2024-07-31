@@ -1,4 +1,4 @@
-import { useREDUCE } from "../js/../lib/lib.js";
+import { reduceJS } from "../js/../lib/lib.js";
 
 const dadoOrigem = { c1: 10, c2: 10 };
 let dadoAlvo = dadoOrigem.c1;
@@ -28,7 +28,7 @@ function opFinalNoTotal(itemAcumulado) {
   return itemAcumulado + 1;
 }
 
-const resultREDUCE = useREDUCE(
+const resultREDUCE = reduceJS(
   listData,
   opSobreCadaAcumulados,
   opFinalNoTotal,
