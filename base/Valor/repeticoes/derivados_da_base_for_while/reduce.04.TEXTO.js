@@ -1,4 +1,4 @@
-// REDUCE SOBRE TEXTO
+// REDUCE TEXTO
 
 let dadoInicial = ""
 let dadoAlvo = "A"

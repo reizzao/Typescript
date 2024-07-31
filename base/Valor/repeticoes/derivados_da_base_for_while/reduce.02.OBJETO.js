@@ -1,12 +1,13 @@
-// REDUCE SOBRE NUMERO
+// REDUCE OBJETO
 
-let dadoInicial = 0
-const func1 = function () { return 10 }()
-const func2 = function () { return 10 }()
-const func3 = function () { return 10 }()
+let dadoAlvo = { c1: "A", c2: "B"}
+let dadoInicial = dadoAlvo
+
+const func1 = function () { return dadoAlvo }()
+const func2 = function () { return dadoAlvo }()
+const func3 = function () { return dadoAlvo }()
 
 const arrayAlvo = [ func1, func2, func3 ]
-// const arrayAlvo = [ 10, 10, 10 ]
 
 // by meuReduce
 function acumulador (initial, item) {
@@ -15,8 +16,10 @@ function acumulador (initial, item) {
 }
 
 function opSobreAcumulados (itemAcumulado) {
-	return itemAcumulado * 20
+  // let dadoAlvo = dadoAlvo
+	return itemAcumulado.c1 += "----OOOOO-----"
 }
+// TODO MUDAR SOMENTE A CHAVE c1 do dado alvo
 
 // meuReduce para uso
 const useMeuReduce = (array, initial) => {
@@ -25,7 +28,6 @@ const useMeuReduce = (array, initial) => {
   let operacao = initial
 
   for (let i = initial; i < arr.length; i++) {
-    // console.log(arr[i])
 
     operacao = acumulador(operacao, opSobreAcumulados (arr[i]) )
 
@@ -37,7 +39,8 @@ const useMeuReduce = (array, initial) => {
 
 const res = useMeuReduce(arrayAlvo, dadoInicial)
 
-console.log(res)
+// console.log(res)
+console.log(dadoAlvo)
 
 
 /*

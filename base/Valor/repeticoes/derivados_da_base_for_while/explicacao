@@ -1,6 +1,8 @@
 Reduce: significado: reduzidor
 objetivo: reduzir varios dados em somente um dado.
 
+aplicabilidade: age sobre dados priitivos: [ texto, numero, ]
+
 implementacao do reduce pronto :
 - recebe no 1º arg uma funcao que vai ser executada para cada elemento do array.
 - no 2º arg recebe opcionalmente o valor de inicio do alvo.
