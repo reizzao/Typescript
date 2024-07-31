@@ -1,6 +1,8 @@
-const dadoOrigem = { c1: 10, c2: 10 };
+import { useREDUCE } from "../lib/lib.js";
+
+const dadoOrigem = { c1: "10", c2: "10" };
 let dadoAlvo = dadoOrigem.c1;
-let inicial = 0;
+let inicial = "";
 
 const func1 = function () {
   return dadoAlvo;
@@ -23,28 +25,15 @@ function acumulador(initial, item) {
 
 // Dinamico é a operacao em cada dadoAlvo para acumular
 function opSobreCadaAcumulados(itemAcumulado) {
-  return itemAcumulado * 3;
+  return itemAcumulado += " concatena em cada || ";
 }
 
 // Dinamico é a operacao final no resultado da acumulacao final
 function opFinalNoTotal(itemAcumulado) {
-  return itemAcumulado + 1;
+  return itemAcumulado += " --> ULTIMO";
 }
 
-// meuReduce para uso
-const useMeuReduce = (list, opAccumulators, opFinal, initial) => {
-  const arr = list;
-  let operacao = initial;
-
-  for (let i = initial; i < arr.length; i++) {
-    operacao = acumulador(operacao, opAccumulators(arr[i]));
-  }
-  const opFinalaposAcumulados = opFinal(operacao);
-
-  return opFinalaposAcumulados;
-};
-
-const resultREDUCE = useMeuReduce(
+const resultREDUCE = useREDUCE(
   listData,
   opSobreCadaAcumulados,
   opFinalNoTotal,
@@ -53,7 +42,3 @@ const resultREDUCE = useMeuReduce(
 
 console.log(resultREDUCE);
 // console.log(dadoOrigem); // Obs: dado de origem nao é alterado
-
-/*
-
-*/
