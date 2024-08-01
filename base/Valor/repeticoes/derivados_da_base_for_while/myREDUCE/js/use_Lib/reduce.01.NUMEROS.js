@@ -1,4 +1,4 @@
-import { reduceJS } from "../js/../lib/lib.js";
+import { reduceJS } from "../lib/lib.js";
 
 const dadoOrigem = { c1: 10, c2: 10 };
 let dadoAlvo = dadoOrigem.c1;
