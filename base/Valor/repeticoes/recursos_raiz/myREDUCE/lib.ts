@@ -1,4 +1,4 @@
-export const reduceJS = (data, init) => {
+export const Reducer = (data: number[], init: number) => {
   try {
     let accumulator = init;
     for (let i = 0; i < data.length; i++) {
